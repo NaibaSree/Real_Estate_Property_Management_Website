@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.property-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-section h2 {
+    color: #e60000;
+    font-size: 24px;
+}
+
+.price-section p {
+    margin-top: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.price-section a {
+    color: #0073e6;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.property-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    width: 45%;
+}
+
+.detail p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-owner {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-owner h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.contact-owner p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-owner a {
+    background-color: #e60000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-owner button:hover {
+    background-color: #cc0000;
+}
